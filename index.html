@@ -12,42 +12,21 @@
 </head>
 <body>
   <div id="app"></div>
-  <script src="//unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js"></script>
   <script>
-    mermaid.initialize({
-      startOnLoad: false
-    });
-    let id=0;
     window.$docsify = {
       name: 'Corumi Technology<br>开源文档中心',
-      repo: 'corumi-technology/opendoc',
       plantuml: {
         skin: 'default',
       },
-      loadSidebar: true,
+      notFoundPage: "README.md",
       coverpage: true,
       onlyCover: true,
-      auto2top: true,
-      loadNavbar: true,
-      mergeNavbar: true,
       executeScript: true,
       'flexible-alerts': {
         style: 'flat'
       },
       alias: {
-        '/(.*\.md)': 'https://raw.githubusercontent.com/corumi-technology/opendoc/master/$1',
-      },
-      markdown: {
-        renderer: {
-          code: function (code, lang) {
-            if (lang === "mermaid") {
-              return (
-                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + id++, code) + "</div>"
-              );
-            }
-            return this.origin.code.apply(this, arguments);
-          }
-        }
+        '/(.*\.md)': 'https://raw.githubusercontent.com/Nigh/Cool.Romi/master/$1',
       }
     }
   </script>

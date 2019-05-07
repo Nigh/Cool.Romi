@@ -2,7 +2,11 @@
 ![logo](docs/logo_square.svg)
 # Corumi Technology<br>开源文档中心
 
-[进入](README.md)
+
+> ## 本文档已永久迁移至新的地址
+
+
+[点击跳转](https://corumi-os.github.io/opendoc)
 
 <!-- background image -->
 

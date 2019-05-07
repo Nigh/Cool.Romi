@@ -1,12 +1,19 @@
 ![](repository-open-graph.png)
 
-# 开源文档中心
+<p align="center">
+  <a href="https://corumi-os.github.io/opendoc">
+    <h1 align="center"></h1>
+  </a>
+</p>
 
-这里是`酷罗米科技`开源文档中心。此处目前主要为大家提供`通信协议`，`产品参数`以及`操作指导`等功能性的文档。
-
-### 文档列表
-
-- [Class C协议文档](docs/classC/classC.md)
-- [BSW202功耗数据](docs/guide/BSW202_pw/index.html)
-- [Nordic DFU升级指导](docs/guide/dfu/README.md)
+<div class="alert flat warning">
+<p class="title">
+    <i class="fas fa-exclamation-triangle"></i>
+    Warning
+</p>
+<h3 align="center">
+本文档地址已经永久迁移，点击新的地址跳转：<br><a href="https://corumi-os.github.io/opendoc">https://corumi-os.github.io/opendoc</a>
+</h3>
+<br>
+</div>
 
